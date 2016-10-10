@@ -1,11 +1,9 @@
-%!TEX TS-program = xelatex
-\documentclass[backend=biber, print]{friggeri-cv}
+\documentclass[]{friggeri-cv}
 \addbibresource{bibliography.bib}
 
 \begin{document}
 \header{erkhembayar}{gantulga}
        {Web Developer}
-
 
 % In the aside, each new line forces a line break
 \begin{aside}
@@ -37,7 +35,7 @@ Book, Chess, History, Photography
   \entry
     {02–07 2013}
     {NTUST, Taipei}
-    {Exchange student.}
+    {Exchange student}
     {\emph{Machine Learning, Computation Photography, AI, Visual Servo Control.}}
   \entry
     {2011–2014}
@@ -70,24 +68,24 @@ Book, Chess, History, Photography
     {Internship}
     {\emph{Web application development}}
   \entry
-    {10 2012–02 2013}
+    {10 2012 – 02 2013}
     {IBM Czech Republic, Praha}
-    {Frontend engineer.}
+    {Frontend engineer}
     {\emph{Cloud service implementation project}}
   \entry
     {06–09 2012}
     {IBM Czech Republic, Praha}
-    {Research Internship.}
+    {Research Internship}
     {\emph{System Integration Developer}}
   \entry
     {08 2010–08 2011}
     {Singleton LLC, Ulaanbaatar}
-    {Web developer.}
+    {Web developer}
     {\emph{E-commerce, Web application development}}
   \entry
     {09 2009–08 2010}
     {Dayar Group LLC, Ulaanbaatar}
-    {Web developer.}
+    {Web developer}
     {\emph{B2B web application development.}}
 \end{entrylist}
 
@@ -111,7 +109,7 @@ Book, Chess, History, Photography
     {B2B e-commerce platform}
   \entry
     {2011}
-    {Mongolfood.mn!}
+    {Mongolfood.mn}
     {\href{http://mongolfood.mn/}{mongolfood.mn}}
     {E-commerce system development}
   \entry
@@ -121,12 +119,12 @@ Book, Chess, History, Photography
     {Mining Value Chain Project in Mongolia | The World Bank}
   \entry
     {2010}
-    {Norway B2C, C2C online e-commerce system.}
+    {Norway B2C, C2C online e-commerce system}
     {\href{http://dev.yozoa.com}{yozoa.com}}
     {Developed new features (e.g. Location based and product search),  in existing system.}
   \entry
     {2010}
-    {Information system of National Influenza Center.}
+    {Information system of National Influenza Center Of Mongolia}
     {}
     {System maintenance development}
   \entry
@@ -143,9 +141,6 @@ Book, Chess, History, Photography
 
 \section{publications}
 
-\begin{refsection}
-  \nocite{*}
-    \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
-    \end{refsection}
+\printbibsection{inproceedings}{peer-reviewed conference/proceedings}
 
 \end{document}
